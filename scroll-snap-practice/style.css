@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(114, 31, 31);
+}
+html{
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 30px;
+}
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+}
+section:nth-of-type(odd){
+    background-color: rgb(165, 221, 202);
+}
+nav{
+    text-align: center;
+    height: 30px;
+}
